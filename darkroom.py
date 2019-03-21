@@ -45,6 +45,9 @@ class DarkRoom(Cmd):
         return False
     
     def do_listen(self, line):
+        """
+        listen to see what is inside the room
+        """
         print("You can't hear anything! It's too dark to hear!")
         return False
 
